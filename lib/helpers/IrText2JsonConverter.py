@@ -66,7 +66,7 @@ class IrText2JsonConverter:
                 node_parsed = self.node_parse(node.lstrip())
                 current_nodes.append(node_parsed)
 
-        return root[0]
+        return root
 
     def convert(self):
         """
